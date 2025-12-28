@@ -1,8 +1,9 @@
+import type { Metadata } from 'next'
 import './globals.css'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'My portfolio',
-  description: 'A summary of my EMBA work',
+  description: 'Created with BuildFlow',
 }
 
 export default function RootLayout({
